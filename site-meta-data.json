@@ -1,9 +1,9 @@
 {
-  "title": "Delog",
+  "title": "MAS",
   "siteUrl": "https://delog-w3layouts.netlify.com/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "description": "In this blog, i writte article about web and mobiles technologies",
   "home": {
-    "title": "Hi! I'm Delog",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
+    "title": "Hi! I'm Mouhamed aly",
+    "description": "I am a passionnate guy. I love learning new technologies and sharing the most i can. I am mostly developing apps with React native and Expo:)"
   }
 }
