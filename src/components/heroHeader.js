@@ -31,7 +31,7 @@ export default () => (
         </div>
 
         <div>
-          <img src={Avatar} />
+          <img alt="profil" src={Avatar} />
         </div>
       </div>
     )}
