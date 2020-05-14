@@ -5,11 +5,7 @@ date: 2020-05-14T19:02:24.624Z
 title: Create And Deploy Web apps and Pwas with Expo
 thumbnail: /assets/interface-3614766_1280.png
 ---
-
-
 - - -
-
-
 
 Expo is an amazing tool which, in addition to allowing you to create ANDROID and IOS mobile applications, also gives you the possibility of creating web applications and progressive web app (pwa) very easily from the same Javascript and React codebase 😍.
 
@@ -23,28 +19,28 @@ If you’re new to Expo, i created a series of videos about Expo available on [y
 
 By the way this article is also written in French. You can read the french version [here](https://medium.com/@sidibemouhamed/expo-pour-le-web-2c3ddf4f7ceb?source=your_stories_page---------------------------).
 
-### How it works ? 🛠
+# How it works ? 🛠
 
 Developing for the web is just like your are developing your expo mobile app. You’ll use the same components (View, Text etc) that will be executed on the web. In addition, you have access to almost all the Expo SDK Features.
 
-### The web app💊
+# The web app💊
 
 In this guide, we will create a simple web app that will allow users to upload a picture from their computer , and then they will be able to rotate the image.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*tGHAV9yItR_FISNYM7HGqQ.gif)
 
-### Create the project 💡
+# Create the project 💡
 
 We need to install the expo-cli to create a Expo project
 
 ```
-
+npm install -g expo-cli
 ```
 
 We can now use the expo-cli to create a fresh expo project by running:
 
 ```
-
+expo init
 ```
 
 ![](https://cdn-images-1.medium.com/max/1600/1*cz--IjVLepNB6tOTcNsTYg.gif)
@@ -60,7 +56,7 @@ If you look in the app.json file under platforms , we can see that our app is ex
 Now let’s run our expo project on the web:
 
 ```
-
+expo start -w
 ```
 
 When you run this command, your app will be automatically launched on your browser.
@@ -76,29 +72,26 @@ We’ll need to install two features of the Expo SDK:
 * **expo-image-picker :**pick an image from the user gallery or camera
 
 ```
-
+expo install expo-image-picker
 ```
 
 * **expo-image-manipulator :**manipulate an image : flip , rotate etc
 
 ```
-
+expo install expo-image-manipulator
 ```
 
 After that, we can import them into our app.js file.
 
 ```
-
-```
-
-```
-
+import * as ImagePicker from 'expo-image-picker';
+import * as ImageManipulator from 'expo-image-manipulator';
 ```
 
 Let’s declare our state that will contain the uri of the selected image.
 
 ```
-
+const [selectedImage, setSelectedImage] = React.useState("");
 ```
 
 The upload function
@@ -142,7 +135,7 @@ Now we are going to deploy our app and make it usable by people.
 Building with expo is so easy. In just one command you can build your app
 
 ```
-
+expo build:web
 ```
 
 This command will build our app and save the final product inside the build folder : **web-build**
@@ -154,7 +147,7 @@ Build
 If you want to test your app locally, just run
 
 ```
-
+npx serve web-build
 ```
 
 and open : <http://localhost:5000>
@@ -166,13 +159,13 @@ We can easily deploy our app with netlify
 * Install the netlify-cli globally
 
 ```
-
+npm install netlify-cli -g
 ```
 
 * Deploy
 
 ```
-
+netlify deploy
 ```
 
 ![](https://cdn-images-1.medium.com/max/1600/1*s-lY35wb3a2r0Y6zigjzkw.gif)
