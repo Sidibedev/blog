@@ -11,6 +11,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
+    "font-awesome": "^4.7.0",
     "gatsby": "^2.21.0",
     "gatsby-image": "^2.4.3",
     "gatsby-plugin-dark-mode": "^1.1.1",

@@ -360,6 +360,7 @@ body.light {
   box-sizing: border-box;
   position: relative;
   display: block;
+  color: #ebc815;
   transform: scale(var(--ggs, 1));
   width: 24px;
   height: 24px;
@@ -400,8 +401,17 @@ body.light {
   box-sizing: border-box;
   border-radius: 50%;
 }
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconRs {
+  margin: 10px;
+}
 .gg-moon {
   overflow: hidden;
+  color: #060a29;
   position: relative;
   transform: rotate(-135deg) scale(var(--ggs, 1));
   width: 20px;
