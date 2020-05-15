@@ -23,7 +23,7 @@ const IndexPage = ({
         <html lang="en" />
       </Helmet>
       <HeroHeader />
-      <h2>Blog Posts &darr;</h2>
+      <h2 className="postTitle">Blog Posts &darr;</h2>
       <div className="grids">{Posts}</div>
     </Layout>
   );

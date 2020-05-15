@@ -419,3 +419,38 @@ body.light {
   top: 8px;
   left: 2px;
 }
+.desc {
+  width: 70%;
+}
+.avatar {
+  width: 30%;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .hero-header {
+    padding: 0 0 64px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .desc {
+    width: 100%;
+  }
+  .avatar {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .primary-content {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 32px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+  .postTitle {
+    text-align: center;
+  }
+}

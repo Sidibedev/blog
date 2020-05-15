@@ -29,7 +29,7 @@ export default () => {
 
   return (
     <div className="hero-header">
-      <div style={{ width: "70%" }}>
+      <div className="desc">
         <div className="headline">{data.site.siteMetadata.home.title}</div>
         <div
           className="primary-content"
@@ -42,7 +42,7 @@ export default () => {
         </Link>
       </div>
 
-      <div style={{ width: "30%" }}>
+      <div className="avatar">
         <Img
           alt="profil"
           fluid={data.image.childImageSharp.fluid}
