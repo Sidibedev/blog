@@ -26,6 +26,7 @@ export default ({ children }) => {
       {children}
       <footer className="site-footer">
         <p>&copy; 2020 Mouhamed Aly Sidibe &bull;</p>
+        
       </footer>
     </div>
   );
