@@ -58,17 +58,24 @@ module.exports = {
         name: `Mouhamed Aly Blog`,
         short_name: `MAS`,
         start_url: `/`,
-        background_color: `#fff`,
+        background_color: `#ffffff`,
         theme_color: `#1e35cd`,
         display: `standalone`,
         icon: "src/images/icon.png",
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://masblog.netlify.app/',
+        sitemap: 'https://masblog.netlify.app/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
-    "gatsby-plugin-dark-mode",
-    // siteURL is a must for sitemap generation
+    `gatsby-plugin-dark-mode`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
   ],

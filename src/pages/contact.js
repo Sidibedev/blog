@@ -12,6 +12,7 @@ const ContactPage = ({ data: { site } }) => {
           name="description"
           content={"Contact page of " + site.siteMetadata.description}
         />
+        <meta name="keywords" content='blog, expo, react native, web, apps,'/>
       </Helmet>
       <div className="two-grids -contact">
         <div
