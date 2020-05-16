@@ -40,13 +40,13 @@ Nous allons créer un composant **ClickCounter** que nous allons appeler depuis 
 
 **App.js**
 
-![](https://miro.medium.com/max/60/1*GTfqZgo4_K4B5cnv_ejgSw.png?q=20)
+
 
 ![](https://miro.medium.com/max/2268/1*GTfqZgo4_K4B5cnv_ejgSw.png)
 
 **ClickCounter.js**
 
-![](https://miro.medium.com/max/60/1*zsELHGJHPNkk3KidpUPSaA.png?q=20)
+
 
 ![](https://miro.medium.com/max/2272/1*zsELHGJHPNkk3KidpUPSaA.png)
 
@@ -54,19 +54,19 @@ Le client a testé et il est content mais il veut autre chose. Il veut maintenan
 
 Facile! c’est presque la même chose que ce qu’on a déjà codé.
 
-![](https://miro.medium.com/max/60/1*PAPpUtCOhXXxXT1MidFfFg.png?q=20)
+
 
 ![](https://miro.medium.com/max/2268/1*PAPpUtCOhXXxXT1MidFfFg.png)
 
 **HoverCounter.js**
 
-![](https://miro.medium.com/max/60/1*GW_olNkCRrFGemBmvT3TUQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/2272/1*GW_olNkCRrFGemBmvT3TUQ.png)
 
 Le code marche, le client est encore content.
 
-![](https://miro.medium.com/max/60/1*cML5_zj1-HwePaxc2E8K8w.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/1954/1*cML5_zj1-HwePaxc2E8K8w.jpeg)
 
@@ -74,7 +74,7 @@ Mais nous, en tant que développeur react, sommes nous content de notre code ? E
 
 ## NON !
 
-![](https://miro.medium.com/max/60/1*U_lNUEOBTppLfdjlgrBhaQ.jpeg?q=20)
+
 
 ![](https://miro.medium.com/max/2400/1*U_lNUEOBTppLfdjlgrBhaQ.jpeg)
 
@@ -84,17 +84,17 @@ Si vous remarquez bien nous avons dupliqué la logique d’incrémentation dans 
 
 On va donc créer un HOC **WithCounter** qui va contenir la logique d’incrémentation.
 
-![](https://miro.medium.com/max/60/1*AAWpnXQ2qOWCu5mP9bEwig.png?q=20)
+
 
 ![](https://miro.medium.com/max/3272/1*AAWpnXQ2qOWCu5mP9bEwig.png)
 
 Maintenant que notre logique se trouve dans notre HOC, on peut l’utiliser dans **ClickCounter** et **HoverCounter** comme suit:
 
-![](https://miro.medium.com/max/60/1*C18sPlb8ydYjbsL_cnQ1tg.png?q=20)
+
 
 ![](https://miro.medium.com/max/2644/1*C18sPlb8ydYjbsL_cnQ1tg.png)
 
-![](https://miro.medium.com/max/60/1*KIz1fx4xFksqanl2QrZiiQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/2800/1*KIz1fx4xFksqanl2QrZiiQ.png)
 
