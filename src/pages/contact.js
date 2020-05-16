@@ -29,19 +29,19 @@ const ContactPage = ({ data: { site } }) => {
           <input type="hidden" name="form-name" value="contact" />
             <div>
               <label >Name</label>
-              <input type="text" name="w3lName" id="w3lName" />
+              <input type="text" name="w3lName" id="w3lName" required/>
             </div>
             <div>
               <label >Email</label>
-              <input type="email" name="w3lSender" id="w3lSender" />
+              <input type="email" name="w3lSender" id="w3lSender" required />
             </div>
             <div>
               <label >Subject</label>
-              <input type="text" name="w3lSubject" id="w3lSubject" />
+              <input type="text" name="w3lSubject" id="w3lSubject" required />
             </div>
             <div>
               <label >Message</label>
-              <textarea name="w3lMessage" id="w3lMessage"></textarea>
+              <textarea name="w3lMessage" id="w3lMessage" required></textarea>
             </div>
             <div style={{ display: "flex", justifyContent: "flex-end" }}>
               <button
