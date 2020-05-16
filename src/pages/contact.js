@@ -29,19 +29,19 @@ const ContactPage = ({ data: { site } }) => {
           <form className="form-container" name="contact" method="POST" data-netlify="true">
           <input type="hidden" name="form-name" value="contact" />
             <div>
-              <label >Name</label>
+              <label htmlFor="w3lName" >Name</label>
               <input type="text" name="w3lName" id="w3lName" required/>
             </div>
             <div>
-              <label >Email</label>
+              <label htmlFor="w3lSender" >Email</label>
               <input type="email" name="w3lSender" id="w3lSender" required />
             </div>
             <div>
-              <label >Subject</label>
+              <label  htmlFor="w3lSubject" >Subject</label>
               <input type="text" name="w3lSubject" id="w3lSubject" required />
             </div>
             <div>
-              <label >Message</label>
+              <label htmlFor="w3lMessage" >Message</label>
               <textarea name="w3lMessage" id="w3lMessage" required></textarea>
             </div>
             <div style={{ display: "flex", justifyContent: "flex-end" }}>
