@@ -3,6 +3,7 @@ template: BlogPost
 path: /Automatisez-vos-déploiements-Expo-avec-Bitbucket-Pipelines
 date: 2020-04-26T20:01:00.872Z
 title: "Automatisez vos déploiements Expo avec Bitbucket Pipelines \U0001F680"
+metaDescription: "Automatisez vos déploiements Expo avec Bitbucket Pipelines \U0001F680"
 thumbnail: /assets/Group 2.png
 ---
 L’un des avantages d’utiliser Expo c’est de pouvoir tester votre application sur Android ou IOS très facilement sans avoir à acheter un *apple developer account* à 99$/an 😞, ou à générer un APK qu’il va falloir transférer par Dropbox ou Drive 😩.
