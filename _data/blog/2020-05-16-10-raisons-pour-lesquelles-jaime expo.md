@@ -3,6 +3,7 @@ template: BlogPost
 path: /10-raisons-pour-lesquelles-jaime-expo
 date: 2020-01-30T04:37:44.796Z
 title: "10 raisons pour lesquelles j'aime\_Expo"
+metaDescription: "10 raisons pour lesquelles j'aime\_Expo"
 thumbnail: /assets/images.png
 ---
 - - -
