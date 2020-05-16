@@ -3,6 +3,7 @@ template: BlogPost
 path: /les-composants-d’ordre-supérieur-avec-React
 date: 2020-04-16T20:00:10.474Z
 title: Les composants d’ordre supérieur(HOC) avec React
+metaDescription: Les composants d’ordre supérieur(HOC) avec React
 thumbnail: /assets/1_qzdgm6IoYSCB3YJqfO8IHQ.png
 ---
 L’un des objectifs de chaque développeur React c’est d’écrire le maximum de composants réutilisables. D’ailleurs les composants par défaut sont le principal moyen de réutiliser du code en React, mais ces derniers ne sont pas adaptés à tous les cas.
