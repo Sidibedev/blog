@@ -5,10 +5,7 @@ import ThemeChanger from "../components/themeChanger";
 export default (props) => (
   <nav className="navigation">
     <Link to="/contact">Contact</Link>
-    <a
-      href="https://www.youtube.com/channel/UC-Rak9WhKgjARd5NwyYzdlQ?view_as=subscriber"
-      target="_blanck"
-    >
+    <a href="https://www.youtube.com/channel/UC-Rak9WhKgjARd5NwyYzdlQ?view_as=subscriber">
       Videos
     </a>
     <ThemeChanger />
