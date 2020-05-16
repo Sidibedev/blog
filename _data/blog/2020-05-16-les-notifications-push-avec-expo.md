@@ -3,6 +3,7 @@ template: BlogPost
 path: /les-notifications-push-avec-Expo
 date: 2020-04-06T19:23:26.054Z
 title: Les notifications push avec Expo
+metaDescription: Les notifications push avec Expo
 thumbnail: /assets/1_khfEdToqjvxURcCqSQetRg.png
 ---
 Les **Notifications Push** sont les messages qui apparaissent sur l’écran de votre smartphone lorsque vous n’utilisez pas l’application.C’un bon moyen de rappeler l’existence de votre application à vos utilisateurs. Lorsqu’elles ne sont pas trop intrusives et restent utiles pour l’utilisateur, elles permettent d’augmenter très rapidement le taux de rétention.
