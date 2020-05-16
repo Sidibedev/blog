@@ -3,6 +3,7 @@ template: BlogPost
 path: /Create-and-Deploy-Web-Apps-and-PWAs-with-Expo
 date: 2020-05-15T20:04:57.223Z
 title: "Create and Deploy Web Apps and PWAs with Expo \U0001F578"
+metaDescription: "Create and Deploy Web Apps and PWAs with Expo \U0001F578"
 thumbnail: /assets/interface-3614766_1280.png
 ---
 Expo is an amazing tool which lets you create not only Android and iOS mobile applications but also web apps and progressive web applications (PWA) very easily from one single Javascript and React codebase 😍.
