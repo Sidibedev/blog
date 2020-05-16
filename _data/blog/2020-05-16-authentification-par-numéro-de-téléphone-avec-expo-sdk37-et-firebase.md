@@ -3,6 +3,7 @@ template: BlogPost
 path: /Authentification-par-numéro-de-téléphone-avec-Expo-et-Firebase.
 date: 2020-04-13T19:29:42.793Z
 title: Authentification par numéro de téléphone avec Expo(SDK37) et Firebase.
+metaDescription: Authentification par numéro de téléphone avec Expo(SDK37) et Firebase.
 thumbnail: /assets/1_iquPRpQs9z3E5iWSGGJA-g.png
 ---
 Le 31 mars 2020 **Expo** a annoncé leur première release de l’année :**LE SDK 37.** Dans cette nouvelle version,**Expo** propose beaucoup de nouvelles fonctionnalités. Vous pouvez aller jeter un coup d’oeil [ici](https://blog.expo.io/expo-sdk-37-is-now-available-dd5770f066a6) pour tout savoir sur le**SDK 37**.
