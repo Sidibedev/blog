@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: '/Automatisez vos déploiements Expo avec Bitbucket Pipelines '
+path: '/automatisez-vos-déploiements-Expo-avec-Bitbucket-Pipelines '
 date: 2020-05-16T04:24:17.910Z
 title: "Automatisez vos déploiements Expo avec Bitbucket Pipelines \U0001F680"
 metaDescription: CI CD with Expo
