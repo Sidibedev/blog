@@ -7,7 +7,7 @@ thumbnail: /assets/images.png
 ---
 - - -
 
-Aujourd’hui si vous voulez développez une application mobile vous avez différentes technologies disponibles. Vous allez peut-être choisir d’utiliser les langages classiques : swift/Objective C pour de l’IOS , Java/Kotlin pour de l’Android. Ou plutôt faire **d’une pierre deux coups**et opter pour une solution multiplateforme , un seul framework pour développer sur les deux plateformes. Ce choix va dépendre vraiment de plusieurs facteurs.
+Aujourd’hui si vous voulez développez une application mobile vous avez différentes technologies disponibles. Vous allez peut-être choisir d’utiliser les langages classiques : swift/Objective C pour de l’IOS , Java/Kotlin pour de l’Android. Ou plutôt faire **d’une pierre deux coups** et opter pour une solution multiplateforme , un seul framework pour développer sur les deux plateformes. Ce choix va dépendre vraiment de plusieurs facteurs.
 
 De nos jours des technologies comme *React native, Flutter, Ionic* etc vous permettent d’avoir une seule codebase exécutable sur plusieurs plateformes. Mais dans cet article nous allons plus nous pencher sur React Native.
 
@@ -29,13 +29,10 @@ React Native a eu un grand succès. Il fait parti des projets open source les pl
 
 #### **Avantages de React native**
 
-**— La courbe d’apprentissage** :Si tu viens d’un environnement **javascript**, c’est très facile d’apprendre React native : J’ai commencé à coder des applications react native il ya deux ans , tout ce que je connaissais c’était javascript et un peu de React.
-
-— **Hot Reloading :**Un des trucs les plus sympa avec RN c’est le hot reloading qui permet de voir le rendu directement en développant, vous ne perdez pas de temps à compiler le code, à patienter , vous gagnez énormement de temps de développement.
-
-—**UNE EXPÉRIENCE UTILISATEUR NATIVE** : Les applis React nativesont des applications natives**:**Quandvous développez une app react native, au final vous avez totalement un rendu natif, c’est a dire que c’est des composants natifs qui sont rendus.
-
-— **Ecrivez du code une fois et exécutez le partout**: Avec react native vous n’avez pas besoin de recruter deux développeurs (android et ios) pour coder votre appli. Vous avez une seule codebase qui marche sur android et ios en même temps. Vous gagnez du temps et de l’argent.
+* **La courbe d’apprentissage** :Si tu viens d’un environnement **javascript**, c’est très facile d’apprendre React native : J’ai commencé à coder des applications react native il ya deux ans , tout ce que je connaissais c’était javascript et un peu de React.
+* **Hot Reloading :**Un des trucs les plus sympa avec RN c’est le hot reloading qui permet de voir le rendu directement en développant, vous ne perdez pas de temps à compiler le code, à patienter , vous gagnez énormément de temps de développement.
+* **UNE EXPÉRIENCE UTILISATEUR NATIVE** : Les applis React native sont des applications natives**:** Quand vous développez une app react native, au final vous avez totalement un rendu natif, c’est a dire que c’est des composants natifs qui sont rendus.
+* **Ecrivez du code une fois et exécutez le partout**: Avec react native vous n’avez pas besoin de recruter deux développeurs (android et ios) pour coder votre appli. Vous avez une seule codebase qui marche sur android et ios en même temps. Vous gagnez du temps et de l’argent.
 
 C’est bien beau tout ça mais en réalité tout ne se passe pas comme prévu.
 
@@ -43,15 +40,11 @@ J’ai rencontré beaucoup de problèmes quand je commençais à coder avec Reac
 
 Voici quelques uns:
 
-— **Vous avez besoin de android studio et Xcode pour run vos projets** : cela veut dire que si vous n’avez pas d’ordinateur mac vous ne pouvez pas développer sur ios. Etant étudiant j’avais un vieux ACER , j’avais pas accès a Xcode et même pour démarrer Android Studio c’était un vrai problème. C’est des logiciels très lourds qui demandent beaucoup de ressources. Vous savez surement de quoi je parle :D
-
-— **Il faut payer pour tester :** Bon maintenant imaginons vous avez un très bon mac dernière génération, vous pouvez allumer android Studio et xcode en quelques secondes vous n’avez donc pas le problème souligné plus haut. Vous développez votre app et à un moment du développement vous devez montrer au client ou tester votre app. Si vous êtes sur android vous allez build un apk et vous débrouiller pour l’envoyer au client. Mais si voulez tester sur iphone, apple vous oblige à acheter un apple developer account, ça coute 99$/an. Si vous êtes fauché comme moi c’est vraiment pas évident.
-
-— **Pas que du Javascript:** Ils vous diront que vous pouvez créer des applications mobiles natives avec du javascript. Dans la pratique ça ne se passe pas toujours comme ça. Vous aurez à plonger dans le monde natif , vous aurez à écrire du code natif (soit du java/kotlin ou du swift). Si vous venez d’un environnement JS ça va barder pour vous :DDDD.
-
-—**Vous écrirez du code spécifique:**C’est évident qu’à un moment du développement vous aurez forcément besoin d’écrire du code spécifique aux plateformes. C’est deux OS différents et donc des manières de fonctionner différentes.
-
-— **Déploiement sur AppStore**: C’est le calvaire, c’est très dur. Vous devez gérer vous même les configurations de build , gérer les certificats , les “provisionning profiles”. J’ai galèré avec ça je vous promets.
+* **Vous avez besoin de android studio et Xcode pour run vos projets** : cela veut dire que si vous n’avez pas d’ordinateur mac vous ne pouvez pas développer sur ios. Etant étudiant j’avais un vieux ACER , j’avais pas accès a Xcode et même pour démarrer Android Studio c’était un vrai problème. C’est des logiciels très lourds qui demandent beaucoup de ressources. Vous savez surement de quoi je parle :D
+*  **Il faut payer pour tester :** Bon maintenant imaginons vous avez un très bon mac dernière génération, vous pouvez allumer android Studio et xcode en quelques secondes vous n’avez donc pas le problème souligné plus haut. Vous développez votre app et à un moment du développement vous devez montrer au client ou tester votre app. Si vous êtes sur android vous allez build un apk et vous débrouiller pour l’envoyer au client. Mais si voulez tester sur iphone, apple vous oblige à acheter un apple developer account, ça coute 99$/an. Si vous êtes fauché comme moi c’est vraiment pas évident.
+* **Pas que du Javascript:** Ils vous diront que vous pouvez créer des applications mobiles natives avec du javascript. Dans la pratique ça ne se passe pas toujours comme ça. Vous aurez à plonger dans le monde natif , vous aurez à écrire du code natif (soit du java/kotlin ou du swift). Si vous venez d’un environnement JS ça va barder pour vous :DDDD.
+* **Vous écrirez du code spécifique:**C’est évident qu’à un moment du développement vous aurez forcément besoin d’écrire du code spécifique aux plateformes. C’est deux OS différents et donc des manières de fonctionner différentes.
+* **Déploiement sur AppStore**: C’est le calvaire, c’est très dur. Vous devez gérer vous même les configurations de build , gérer les certificats , les “provisionning profiles”. J’ai galèré avec ça je vous promets.
 
 J’ai eu pas mal de soucis auxquels je m’y attendais pas vraiment quand je commençais à développer avec React native. On vous dit pas tout et c’est en pratique que vous vous rendez compte des choses. Mais c’est toujours bien en terme d’expérience :).
 
@@ -59,7 +52,7 @@ J’ai eu pas mal de soucis auxquels je m’y attendais pas vraiment quand je co
 
 ![](https://cdn-images-1.medium.com/max/1600/0*JarPAYjStqyrIIAD)
 
-Photo by [Yogi Purnama](https://unsplash.com/@yogipurnama?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
+
 
 Expo apporte des solutions à ces problèmes énumérés plus haut.
 
@@ -75,13 +68,10 @@ C’est cool non ? :DDD
 
 **Les avantages d’utiliser EXPO**
 
-— **Facile à prendre en main**: Vous n’avez pas besoin d’avoir des connaissances en développement natif pour démarrer avec expo. Il faut juste savoir coder en JS/TS.
-
-— **Accessible**: Tout le monde peut démarrer avec Expo , il suffit juste d’avoir un ordinateur et une connexion internet.
-
-— **Pas besoin de Android Studio ou Xcode**: Tout simplement parce que vous n’aurez pas à dealer avec le code natif. les configurations sont déjà gérées.
-
-— **Déployer vos apps facilement :**En quelques commandes vous pouvez mettre votre app sur les stores.
+* **Facile à prendre en main**: Vous n’avez pas besoin d’avoir des connaissances en développement natif pour démarrer avec expo. Il faut juste savoir coder en JS/TS.
+*  **Accessible**: Tout le monde peut démarrer avec Expo , il suffit juste d’avoir un ordinateur et une connexion internet.
+*  **Pas besoin de Android Studio ou Xcode**: Tout simplement parce que vous n’aurez pas à dealer avec le code natif. les configurations sont déjà gérées.
+*  **Déployer vos apps facilement :**En quelques commandes vous pouvez mettre votre app sur les stores.
 
 Dans un autre article je rentrerai dans les détails sur le fonctionnement de Expo.
 
@@ -113,7 +103,7 @@ Avec le Expo cli vous pouvez :
 
 Expo vous fourni des templates pour démarrer votre projet.
 
-— éxecuter votre app et commencer le développement: e**xpo start**
+— exécuter votre app et commencer le développement: e**xpo start**
 
 — Publier votre app pour la faire tester par vos clients/beta-users etc: **expo publish**
 
@@ -129,7 +119,7 @@ C’est une app dans laquelle vous pourrez avoir un rendu en temps réel. Grace 
 
 ![](https://cdn-images-1.medium.com/max/1200/1*v8qBXS5SJl5_I-zdj8JwQw.png)
 
-### 4. SNACK
+### 4. **SNACK**
 
 Snack est un outil en ligne qui vous permet d’écrire du code react native et d’avoir un aperçu directement. C’est un IDE en ligne. C’est comme [Jsfiddle](https://jsfiddle.net/), [playcode](https://playcode.io/online-javascript-editor).
 
@@ -197,16 +187,16 @@ Si vous voulez déployer votre application web vous pouvez juste lancer la comma
 
 ![](https://cdn-images-1.medium.com/max/1600/1*dCIoZ2KkQpDAhoRvgAEG0g.png)
 
-Expo est un outil qui m’a beacoup facilité la vie en tant que développeur react native.
+Expo est un outil qui m’a beaucoup facilité la vie en tant que développeur react native.
 
-Il faut noter que expo ne marches pas toujours: desfois vous aurez besoin de certaines fonctionnalités native que expo ne dispose pas encore.
+Il faut noter que expo ne marches pas toujours: parfois vous aurez besoin de certaines fonctionnalités native que expo ne dispose pas encore.
 
 En effet le Expo sdk n’est pas encore complet, par exemple si vous avez besoin de faire une app qui utilise la technologie Bluetooth vous ne pourrez pas avec expo. Il vous faudra démarrer un projet react native normal.
 
-Si vous aviez deja démarrer un projet expo et que vous vous rendez compte que vous avez besoin d’une fonctionnalité native que Expo ne dispose pas, vous avez la possibilité d’ejecter votre app de expo et de retourner vers une app react native normale sans problèmes, sans bug.
+Si vous aviez deja démarrer un projet expo et que vous vous rendez compte que vous avez besoin d’une fonctionnalité native que Expo ne dispose pas, vous avez la possibilité d’éjecter votre app de expo et de retourner vers une app react native normale sans problèmes, sans bug.
 
 Expo est encore un projet jeune par rapport à react native mais tous les jours il ya des améliorations, de nouveaux apis, etc… chapeau vraiment à la team expo : [Evan Bacon](https://medium.com/u/16b715de038f) , [Eric Samelson](https://medium.com/u/4dc83050e8c4) , [Brent Vatne](https://medium.com/u/d5a707474bd2) ils font un travail remarquable.
 
 Je pense commencer une série d’articles sur les différentes apis disponibles.
 
-A bientot 😊
+A bientôt 😊
