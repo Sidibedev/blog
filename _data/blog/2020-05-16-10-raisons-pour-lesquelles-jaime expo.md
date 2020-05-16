@@ -3,11 +3,9 @@ template: BlogPost
 path: /10-raisons-pour-lesquelles-jaime-expo
 date: 2020-05-28T04:37:44.796Z
 title: "10 raisons pour lesquelles j'aime\_Expo"
-thumbnail: /assets/1_ftnjbMAOcmelIcRhRTP8cw.png
+thumbnail: /assets/images.png
 ---
 - - -
-
-![](https://cdn-images-1.medium.com/max/1600/1*ftnjbMAOcmelIcRhRTP8cw.png)
 
 Aujourd’hui si vous voulez développez une application mobile vous avez différentes technologies disponibles. Vous allez peut-être choisir d’utiliser les langages classiques : swift/Objective C pour de l’IOS , Java/Kotlin pour de l’Android. Ou plutôt faire **d’une pierre deux coups**et opter pour une solution multiplateforme , un seul framework pour développer sur les deux plateformes. Ce choix va dépendre vraiment de plusieurs facteurs.
 
