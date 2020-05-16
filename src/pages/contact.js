@@ -25,7 +25,7 @@ const ContactPage = ({ data: { site } }) => {
           <p>Let me help you kick start your next project &rarr;</p>
         </div>
         <div>
-          <form className="form-container" name="contact" netlify>
+          <form className="form-container" name="contact" method="POST" data-netlify="true">
             <div>
               <label htmlFor="w3lName">Name</label>
               <input type="text" name="w3lName" id="w3lName" />
