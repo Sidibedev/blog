@@ -3,6 +3,7 @@ template: BlogPost
 path: /Le-pattern-Container-Presentational-Component-avec-React
 date: 2020-03-30T19:16:58.575Z
 title: Le pattern Container/Presentational Component avec React
+metaDescription: Le pattern Container/Presentational Component avec React
 thumbnail: /assets/Hierarchy-Organization-Persons.png
 ---
 Le container/Presentational pattern est l’un des patterns les plus importants dans le développement d’applications webs avec React.
