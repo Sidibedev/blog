@@ -36,27 +36,27 @@ Les configurations suivantes se feront dans la console Firebase.
 
 Au niveau de la page d’accueil, cliquez sur web,
 
-![](https://miro.medium.com/max/60/1*40sjowMTFDhwR_L4ANM01w.png?q=20)
+
 
 ![](https://miro.medium.com/max/1504/1*40sjowMTFDhwR_L4ANM01w.png)
 
 Ou bien cliquez sur *project setting s*et ensuite *add* app
 
-![](https://miro.medium.com/max/60/1*HWJKxgjZ15-kRzrx-7jcMQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/916/1*HWJKxgjZ15-kRzrx-7jcMQ.png)
 
-![](https://miro.medium.com/max/60/1*XCuro-saMB2pwv-c2p1gCw.png?q=20)
+
 
 ![](https://miro.medium.com/max/1904/1*XCuro-saMB2pwv-c2p1gCw.png)
 
 Choisissez un nom
 
-![](https://miro.medium.com/max/60/1*w5zKD6lo9PE8oEatvUD6hQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/1658/1*w5zKD6lo9PE8oEatvUD6hQ.png)
 
-![](https://miro.medium.com/max/60/1*_Upm0ted3AmatcJ3HdHlUw.png?q=20)
+
 
 ![](https://miro.medium.com/max/2168/1*_Upm0ted3AmatcJ3HdHlUw.png)
 
@@ -66,11 +66,11 @@ On va copier nos configurations et les garder quelque part on en aura besoin plu
 
 Cliquez sur *Authentification* au niveau du menu , sélectionner *phone* puis appuyez sur le bouton activer.
 
-![](https://miro.medium.com/max/60/1*O2auQut7QsfNOWz7Q3-2iA.png?q=20)
+
 
 ![](https://miro.medium.com/max/2522/1*O2auQut7QsfNOWz7Q3-2iA.png)
 
-![](https://miro.medium.com/max/60/0*EFERTDstse9ABnrJ.png?q=20)
+
 
 ![](https://miro.medium.com/max/2800/0*EFERTDstse9ABnrJ.png)
 
@@ -98,7 +98,7 @@ $ expo install expo-firebase-recaptcha react-native-webview firebase
 
 Pour utiliser firebase il faut d’abord l’initialiser. Pour ça nous allons créer un fichier **Firebase.js** dans notre projet et on va y initialiser firebase avec notre configuration.
 
-![](https://miro.medium.com/max/60/1*DrMKnNEnwGOd9NTuLJAnRQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/2376/1*DrMKnNEnwGOd9NTuLJAnRQ.png)
 
@@ -106,13 +106,13 @@ Pour utiliser firebase il faut d’abord l’initialiser. Pour ça nous allons c
 
 Nous aurons donc deux écrans, un écran pour récupérer le numéro de téléphone de l’utilisateur, afficher le Recaptcha et ensuite envoyer le code , puis un autre écran pour vérifier le code.
 
-![](https://miro.medium.com/max/60/1*0HCmGZ8ec0270TEEqvJ-zQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/2376/1*0HCmGZ8ec0270TEEqvJ-zQ.png)
 
 Dans notre fichier App.js nous allons définir un simple StackNavigator qui contiendra ces deux écrans :
 
-![](https://miro.medium.com/max/60/1*89BcryAa43gF6x3PWHxKCQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/2096/1*89BcryAa43gF6x3PWHxKCQ.png)
 
@@ -122,19 +122,19 @@ Nous avons créé notre navigation et nos deux composants **PhoneNumberScreen** 
 
 1. Dans ce composant on récupère le numéro de téléphone que l’utilisateur renseigne dans le champs numéro tel et on le stocke dans le state. Nous ajoutons aussi le modal Recaptcha dans notre méthode **Render**.
 
-![](https://miro.medium.com/max/50/1*0TgGrHdTgUFOq0NXVyPxZw.png?q=20)
+
 
 ![](https://miro.medium.com/max/2912/1*0TgGrHdTgUFOq0NXVyPxZw.png)
 
 2. Quand l’utilisateur clique sur Envoyer la fonction**sendCode()**s’exécute. Elle permet d’afficher le Recaptcha et d’envoyer le code par sms si tout se passe bien.
 
-![](https://miro.medium.com/max/60/1*aSAiHJiiZ9dwAw9DrLGDeQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/2952/1*aSAiHJiiZ9dwAw9DrLGDeQ.png)
 
 Voici le code final du composant:
 
-![](https://miro.medium.com/max/38/1*l1x87WLNn64pVzDBtUISyw.png?q=20)
+
 
 ![](https://miro.medium.com/max/2912/1*l1x87WLNn64pVzDBtUISyw.png)
 
@@ -144,13 +144,13 @@ Dans cet écran on doit vérifier que le code que l’utilisateur a renseigné e
 
 Voici la fonction qui permet de faire cette vérification:
 
-![](https://miro.medium.com/max/60/1*wgWf8gBQt0jDA0cBxdqULA.png?q=20)
+
 
 ![](https://miro.medium.com/max/2952/1*wgWf8gBQt0jDA0cBxdqULA.png)
 
 Voici le code final du composant:
 
-![](https://miro.medium.com/max/30/1*r4esjpaq8eY9xarhazVwwQ.png?q=20)
+
 
 ![](https://miro.medium.com/max/2912/1*r4esjpaq8eY9xarhazVwwQ.png)
 
@@ -162,7 +162,7 @@ Voici une démo de notre application:
 
 Quand on vérifie sur Firebase on voit bien notre utilisateur.
 
-![](https://miro.medium.com/max/60/1*Ae5n3ctr507cWKEPn8XY2A.png?q=20)
+
 
 ![](https://miro.medium.com/max/2536/1*Ae5n3ctr507cWKEPn8XY2A.png)
 
