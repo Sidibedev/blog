@@ -1,7 +1,10 @@
 import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
+import Avatar from "../images/avatar.svg";
+import { useNetworkStatus } from "react-adaptive-hooks/network";
 export default () => {
+  const { effectiveConnectionType } = useNetworkStatus();
   const data = useStaticQuery(graphql`
     query HeadingQuery {
       site {
@@ -43,11 +46,16 @@ export default () => {
       </div>
 
       <div className="avatar">
-        <Img
-          alt="profil"
-          fluid={data.image.childImageSharp.fluid}
-          fadeIn={true}
-        />
+        {effectiveConnectionType == "2g" ||
+        effectiveConnectionType == "slow-2g" ? (
+          <img src={Avatar} />
+        ) : (
+          <Img
+            alt="profil"
+            fluid={data.image.childImageSharp.fluid}
+            fadeIn={true}
+          />
+        )}
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ const IndexPage = ({
       <Helmet>
         <title>{site.siteMetadata.title} - HOME</title>
         <meta name="description" content={site.siteMetadata.description} />
-        <meta name="keywords" content='blog, expo, react native, web, apps,'/>
+        <meta name="keywords" content="blog, expo, react native, web, apps," />
         <html lang="en" />
       </Helmet>
       <HeroHeader />
