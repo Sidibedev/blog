@@ -1,9 +1,9 @@
 {
   "title": "MAS",
-  "siteUrl": "https://masblog.netlify.com/",
-  "description": "In this blog, i write articles about web and mobile technologies",
+  "siteUrl": "https://mouhamedaly.dev/",
+  "description": "Welcome to my personal blog. I write articles about web and mobile technologies",
   "home": {
     "title": "Hi! I'm Mouhamed aly",
-    "description": "I am passionnate about computer science, creating products, Design Thinking. I love learning new technologies and sharing the most i can. I am mostly developing apps with React native and Expo:)"
+    "description": "I am passionnate about computer science, creating products, Design Thinking. I love learning new technologies and sharing the most i can. I am mostly developing apps with React native and Expo :)"
   }
 }
