@@ -5,6 +5,8 @@ import Layout from "../components/layout";
 import PostLink from "../components/post-link";
 import HeroHeader from "../components/heroHeader";
 import "font-awesome/css/font-awesome.min.css";
+import Projects from "../components/projects";
+import Videos from "../components/videos";
 const IndexPage = ({
   data: {
     site,
@@ -12,6 +14,7 @@ const IndexPage = ({
   },
 }) => {
   const Posts = edges
+    .slice(0, 3)
     .filter((edge) => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
 
@@ -24,8 +27,18 @@ const IndexPage = ({
         <html lang="en" />
       </Helmet>
       <HeroHeader />
-      <h2 className="postTitle">All my Blog Posts &darr;</h2>
+      <h2 className="postTitle">Latest blog posts &darr;</h2>
       <div className="grids">{Posts}</div>
+
+      <div style={{ marginTop: 100 }}>
+        <h2 className="postTitle">Latest projects &darr;</h2>
+        <Projects />
+      </div>
+
+      <div style={{ marginTop: 100 }}>
+        <h2 className="postTitle">Latest videos &darr;</h2>
+        <Videos />
+      </div>
     </Layout>
   );
 };

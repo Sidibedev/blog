@@ -65,12 +65,12 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: 'https://masblog.netlify.app/',
-        sitemap: 'https://masblog.netlify.app/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
+        host: "https://mouhamedaly.dev/",
+        sitemap: "https://mouhamedaly.dev/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
