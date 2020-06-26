@@ -9,9 +9,7 @@ thumbnail: /assets/blog.png
 
 ### How I Created My Blog With Gatsby
 
-![](https://cdn-images-1.medium.com/max/1600/1*PtUVnOsws61QcizGqZ6AYQ.png)
 
-- - -
 
 > As a software developer, one of the best mediums you can use to market yourself is a blog. It’s my firm belief that every software developer who cares about their career should invest in creating a blog.
 
@@ -58,17 +56,17 @@ I wasn’t motivated to make my website with classic html css or CMS like wordpr
 
 But one day while doing research I discovered Gatsby and I fell in love.I realized that Gatsby’s was the perfect tool to create a personal or business website. So i decided to learn it. And for me, *the best way to learn is by practicing.*
 
-### GATSBY
+# GATSBY
 
 ![](https://cdn-images-1.medium.com/max/1600/0*LtqW6FOAzMFveU0P.png)
 
-#### What is Gatsby ?
+### What is Gatsby ?
 
 Gatsby is a free and open source framework based on React that helps developers build blazing fast **websites** and **apps.**
 
 Gatsby is generally defined as a powerful static site generator, but very different from other SSGs like jeykill, hugo etc. The particularity of Gatsby is that it allows you to create extremely fast static sites, progressive and high performance web applications.
 
-#### How it works ?
+### How it works ?
 
 Gatsby does all the data fetching during build time. No matter where your data come from you can access it in the same way. Gatsby normalize your data into a graphql api so you can read and display them easily.
 
@@ -78,9 +76,9 @@ Here is a graphic that summarize it:
 
 ![](https://cdn-images-1.medium.com/max/1600/1*WmQ-xuhDBxxgV8oyip356Q.png)
 
-### Getting started
+# Getting started
 
-#### **Gatsby CLI**
+## **Gatsby CLI**
 
 ```
 npm install -g gatsby-cli
@@ -106,7 +104,7 @@ gatsby develop
 gatsby build
 ```
 
-#### **Gatsby Starter**
+## **Gatsby Starter**
 
 The Gatsby CLI tool lets you install **starters**, which are boilerplate Gatsby sites maintained by the community and intended for jump-starting development quickly.
 
@@ -133,7 +131,7 @@ gatsby develop
 
 Gatsby will start a hot-reloading development environment accessible by default at `http://localhost:8000.`
 
-#### **Customizing:**
+## **Customizing:**
 
 By default the starter looks like this:
 
@@ -147,7 +145,7 @@ You can customize your app as you want , it’s just html, css and react.
 
 By the way I created [my own starter](https://www.gatsbyjs.org/starters/Sidibedev/expo-gatsby-starter/) if you want to start a [Expo](http://expo.io)/Gatsby project.
 
-#### Gatsby Plugins
+## Gatsby Plugins
 
 Basically Gatsby plugins are just Node packages, so you can install them like other packages in node using NPM.
 
@@ -165,9 +163,9 @@ npm install - save gatsby-plugin-offline
 
 In short there is a plugin for everything you want to do.
 
-### Netlify and Netlify CMS
+# Netlify and Netlify CMS
 
-#### Netlify
+## Netlify
 
 **Definition**: Netlify is a platform you can use to automatically build, deploy, serve, and manage your frontend sites and web apps.
 
@@ -177,7 +175,7 @@ There are really a lot of advantages to using netlify in a gatsby site.
 * **Forms** : I have a contact form in my website, so that users can write me. Netlify comes with built-in form handling. I just have to add the`netlify` attribute or `data-netlify="true"` to the `<form>` tag, and i can start receiving messages in my Netlify site admin panel.
 * **Domain Settings**: I added my custom domain **[mouhamedaly.dev](https://mouhamedaly.dev)** directly from the netlify admin panel. In just a few minutes my domain was available
 
-#### Netlify CMS
+## Netlify CMS
 
 **Definition**: Netlify CMS is an **open source headless content management system** which can be used with any static site generator to construct a faster and flexible web app. Netlify CMS is fully extensible, platform agnostic, easy to install and provides a friendly UI to the users.
 
@@ -191,7 +189,7 @@ Netlify CMS is preinstalled in this starter, no configuration needed. After star
 
 Every time I add a new post, the content will be stored in my repository and versioned on GitHub because Netlify CMS is Git-based. Also, thanks to [Netlify’s Continuous Deployment](https://www.netlify.com/docs/continuous-deployment/), a new version will be deployed every time i add or edit a post. This is awesome.
 
-### SEO
+# SEO
 
 The better you optimize your blog for **SEO**, the higher your website will be listed on search engine result pages, so more people can find your website.
 
@@ -205,7 +203,7 @@ Right click -> View page source
 
 Some tricks i used to improve my SEO
 
-#### **React Helmet**
+## **React Helmet**
 
 Meta tags are very important for SEO. They tell search engines important information about your web page, such as how they should display it in search results.
 
@@ -217,7 +215,7 @@ React helmet
 
 With this plugin, attributes you add to your components, e.g. title, meta attributes, etc. will get added to the static HTML pages Gatsby builds.
 
-#### Sitemap
+## Sitemap
 
 An sitemap is a XML file that lists all your website pages, making sure Google can find and crawl them all, also helping it understand your website structure.
 
@@ -229,7 +227,9 @@ Eh voila :
 
 LightHouse SEO Test
 
-### PWA
+
+
+# PWA
 
 I really like progressive web apps. It was very important for me to have a pwa for my personal blog so users can download it like a native app.
 
@@ -247,7 +247,7 @@ They give you all your need to build a [true PWA](https://www.gatsbyjs.org/docs/
 
 PWA TEST
 
-### Adaptive loading
+# Adaptive loading
 
 [Adaptive Loading](https://www.youtube.com/watch?v=puUPpVrIRkc) is a web performance pattern where sites not just respond based on screen size — they adapt based on actual device hardware.
 
@@ -287,7 +287,7 @@ Usage : If the user has a slow connection i show a SVG avatar image instead of s
 
 Using these hooks and utilities can help you give users a great experience best suited to their device and network constraints.
 
-### Image optimization
+# Image optimization
 
 Large, unoptimized images dramatically slow down your site.
 
@@ -303,11 +303,11 @@ For more info on how to install and use the gatsby-image plugin : visit this [pa
 
 There are so many cool things I haven’t mentioned in this article but you can go further and discover gatsby. Their documentation is very well done and the community is very nice.
 
-### Why you should use gatsby ?
+# Why you should use gatsby ?
 
 Gatsby is a very good framework if you want to build blazing fast **websites** and **apps very quickly.**
 
-#### Gatsby make it Simple
+### Gatsby make it Simple
 
 Getting started with modern web development is complicated, you have to care about a lot of thing like webpack, postcss, app performance, deployment etc.
 
@@ -317,13 +317,13 @@ Getting started with modern web development is complicated, you have to care abo
 * SEO friendly
 * Progressive web apps generator
 
-#### **Gatsby is fun**
+### **Gatsby is fun**
 
 Gatsby is built on popular technologies like React and Graphql, so you won’t need to learn a new stack from scratch. If you like creating websites with React and Graphql, you’ll love Gatsby.
 
 Gatsby lets you pull your data from wherever you want: API , markdown files, databases, CMSs like Wordpress and make it available through a graphql API, that’s pretty cool.
 
-#### Gatsby is performant
+### Gatsby is performant
 
 Stop worrying about performance in your web app, Gatsby take care of it for you. Gatsby sites are very very fast.
 
@@ -340,6 +340,6 @@ Gatsby does a lot of optimization for us out of the box.
 
 As a developer, my experience with Gatsby has been wonderful. I really enjoyed building my website with Gatsby ❤️. You should try it, you won’t be disappointed.
 
-*You also might like to take a look at my other articles:**<https://mouhamedaly.dev>***
+\*You also might like to take a look at my other articles:**<https://mouhamedaly.dev>***
 
 Thanks for reading.
