@@ -5,7 +5,7 @@ const PostLink = ({ post }) => {
   const { effectiveConnectionType } = useNetworkStatus();
   return (
     <article className="card ">
-      {effectiveConnectionType != "2g" && (
+      {effectiveConnectionType !== "2g" && (
         <Link to={post.frontmatter.path}>
           {!!post.frontmatter.thumbnail && (
             <img

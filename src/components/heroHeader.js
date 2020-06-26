@@ -44,7 +44,6 @@ export default () => {
           Get in touch &rarr;
         </Link>
       </div>
-
       <div className="avatar">
         {effectiveConnectionType == "2g" ||
         effectiveConnectionType == "slow-2g" ? (
