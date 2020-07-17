@@ -6,6 +6,8 @@ title: Les notifications push avec Expo
 metaDescription: Les notifications push avec Expo
 thumbnail: /assets/1_khfEdToqjvxURcCqSQetRg.png
 ---
+*Expo a sorti la version 38 de son SDK et il ya une nouvelle api pour les notifications, j’ai fait une [vidéo](https://www.youtube.com/watch?v=Kn14Xu3l-6w&t=2s) à ce sujet. Le code utilisé dans cet article reste valable mais deviendra obsolète bientôt.*
+
 Les **Notifications Push** sont les messages qui apparaissent sur l’écran de votre smartphone lorsque vous n’utilisez pas l’application.C’un bon moyen de rappeler l’existence de votre application à vos utilisateurs. Lorsqu’elles ne sont pas trop intrusives et restent utiles pour l’utilisateur, elles permettent d’augmenter très rapidement le taux de rétention.
 
 **Expo** nous permet d’intégrer très facilement les notifications push dans notre application react native. Nous allons voir pas à pas comment envoyer des notifications à nos utilisateurs depuis notre application expo.
